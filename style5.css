@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header{
+  background-image:url(images/p3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  overflow-x: hidden;
+  width:100%;
+}
+nav .logo{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: red;
+}
+nav .items{
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform:uppercase;
+}
+nav .items ul{
+  display: flex;
+}
+nav .items ul li{
+  padding: 0px 15px;
+}
+.items ul li a{
+  color:white;
+  font-size: 13px;
+  border: 1px solid tranparent;
+  border-radius: 18px;
+}
+.items ul li a:hover{
+  background-color:rgba(0, 0, 0, 0.2);}
+.content{
+  text-align: center;
+  width:100vw;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.subcontent{
+color: white;
+}
+.subcontent span{
+  color:red;
+  font-size: 25px;
+}
+.subcontent h1{
+  font-size: 25px;
+  line-height: 1.3;
+}
+.subcontent p{
+  font-size: 14px;
+  color: darkgrey;
+  line-height: 1.4;
+}
+section{
+  width:100;
+  height:40vh;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus{
+  width:90%;
+}
+.aboutus h1{
+  font-family: 'Allura', cursive;
+   line-height:2.5;
+   font-size: 35px;
+}
+.aboutus p{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .btn button{
+      font-family: 'Josefin Sans', sans-serif;
+      border: 2px solid red;
+      background-color: white;;
+      padding: 10px 28px;
+      margin: 20px auto;
+      color: red;
+      font-weight:normal;
+  }
+.services{
+  background-color: #f4f4f4;
+  width:100%;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Allura', cursive;
+  padding: 5% 10%;
+  line-height: 1.5;
+  word-spacing: 3;
+}
+.services p {
+  font-family: 'Josefin Sans', sans-serif;
+  color:grey;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+.images{
+  display: flex;
+justify-content: space-between;
+  margin-top: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.images img{
+  text-align: center;
+  width:30%;
+padding: 0px 15px;
+}
+
+.img img{
+  width:100%;
+margin-bottom: 25px;
+}
+.img h2{
+  text-transform: capitalize;
+  line-height: 2;
+  color: red;
+}
+.img p{
+  font-size:13px;
+  color:grey;
+}
+.contact{
+  padding: 5% 10%;
+  text-align: center;
+  }
+.contact h1{
+  font-family: 'Allura', cursive;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+  .login{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    }
+  .email input{
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 8px 30px;
+    border: 1px solid #ccc;
+  }
+  .sub input{
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 8px 30px;
+    border: 1px solid #ccc;
+  }
+  .area textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #ccc;
+    padding: 8px 30px;
+  }
+  .contact button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid red;
+    background-color: white;;
+    padding: 10px 60px;
+    margin: 20px auto;
+    color: red;
+    font-weight:normal;
+  }
+  .team{
+    padding: 5% 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Allura', cursive;
+    text-transform: uppercase;
+background-color: #f4f4f4;
+  }
+  .team h1{
+    font-size: 40px;
+  }
+  .team-img{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:auto auto auto;
+  grid-row-gap: 20px;
+grid-column-gap: 50px;
+overflow: hidden;
+
+}
+
+.team-img .imgg{
+  overflow: hidden;
+}
+.team-img .imgg img{
+  width:100%;
+  display: block;
+  transition: all 0.5s;
+}
+.team-img .imgg:hover img{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+footer{
+  background-color:black;
+  height: 6vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 15px;}
+
+footer h2{
+  color:white;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
